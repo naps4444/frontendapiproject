@@ -56,9 +56,9 @@ function ResourceList({ resources, setResources }) {
 
   return (
     <div className="mt-8 w-10/12 lg:w-8/12 mx-auto">
-      <h2 className="text-2xl font-semibold mb-4">Available Resources</h2>
+      <h2 className="text-2xl font-semibold mb-4">Available Product</h2>
       {resources.length === 0 ? (
-        <p>No resources available. Add a new resource!</p>
+        <p>No product available. Add a new product!</p>
       ) : (
         <ul className="space-y-4">
           {resources.map((resource) => (
